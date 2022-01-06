@@ -53,6 +53,7 @@ function App() {
 
   return (
     <div className="App">
+      <div className="container">
         <div className="title">AlefiDev - CameraApp</div>
         <div className="camera">
           <video ref={videoRef}></video>
@@ -62,7 +63,7 @@ function App() {
           <canvas ref={photoRef}></canvas>
           <button onClick={closePhoto}>Close</button>
         </div>
-    </div>
+    </div></div>
   );
 }
 
